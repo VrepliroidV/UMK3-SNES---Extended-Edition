@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3**. It includes everything fr
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 102):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 103):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,14 +16,15 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `256922a6cf88f2af012ec70924b828cd` |
+| Patched ROM MD5 | `883e4ff174c479c74046af5b2db3c1b5` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-102)
+## Latest changes (betas 57-103)
 
+- **Beta 103:** Nightwolf gets the **Red Shadow Shoulder** from Mortal Kombat Trilogy: Back, Back, Fwd + HK. His shoulder charge with a red shadow, a little faster and farther than the normal one (Fwd, Fwd + LK, which keeps its green shadow). It is in the MOVELIST. In Human Smoke's "No Smoking" Friendship, his smoke stops when the sign lands next to him.
 - **Beta 102:** Human Smoke gets two fatalities from Mortal Kombat Trilogy: **Teleport Smash** (Run, Block, Run, Run + HK, close; it replaces the head-ripping uppercut he shared with Ermac): he teleports, his punch blows the opponent's head off and blood spurts from the neck; and **Possession** (Fwd, Fwd, Back + Run, about half a screen; his new first fatality): from his victory pose he fades into smoke that flies into the opponent, which shakes, screams, turns grey and explodes, then he fades back in. Noob Saibot gets a **Friendship**: Fwd, Fwd, Back + HP, farther than half a screen, without blocking in the round: he winds the ninjas' music box, his shadow jumps out, lands in front of the opponent, bends forward and shouts, the opponent runs away scared and the shadow fades out. All three are in the MOVELIST. One Button Fatalities now follows each command's rules: Rain walks right up to the opponent for the Deadly Uppercut, the friendships that need a distance walk to it (Smoke, Triborg and Noob far; Scorpion, Reptile, Classic Sub-Zero and Rain close), Classic Sub-Zero backs off so the Ice Spike lands inside the stage, and with the opponent against the wall neither the Ice Spike nor Noob's teleport slams come out.
 - **Beta 101:** Human Smoke gets the "No Smoking" **Friendship** from Mortal Kombat Trilogy: Down, Fwd, Fwd, Fwd + Run, farther than a sweep (about half a screen), at FINISH HIM, without blocking in the round. A NO SMOKING ALLOWED! sign falls from the top of the screen in front of him and sticks in the floor, then he does his victory pose. It is in the MOVELIST, and One Button Fatalities does it with HK / LK.
 - **Beta 100:** One Button Fatalities reworked: each fighter walks to the right distance for his own fatality, Chameleon, Khameleon, Triborg and Human Smoke do their own, the stage fatality only on stages that have one, and the buttons for a finisher a fighter doesn't have do the normal move. In 4 PLAYER, 6 PLAYER and 8 PLAYER TOURNAMENT every pick has its own colours (Kano and MK3's Noob Saibot can be picked by the same player, and the bracket shows NOOB SAIBOT). Fixed garbage on the cheats screen in 2-player matches.
@@ -162,12 +163,13 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo. Traz tudo do UMK3 Delu
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 102):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 103):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `256922a6cf88f2af012ec70924b828cd`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `883e4ff174c479c74046af5b2db3c1b5`.
 
-### Novidades recentes (betas 57-102)
+### Novidades recentes (betas 57-103)
 
+- **Beta 103:** o Nightwolf ganhou o **Red Shadow Shoulder** do Mortal Kombat Trilogy: trás, trás, frente + HK. É o ombro dele com a sombra vermelha, um pouco mais rápido e indo mais longe que o normal (frente, frente + LK, que continua com a sombra verde). Está no MOVELIST. No Friendship "No Smoking" do Human Smoke, a fumaça dele para de sair quando a placa cai perto dele.
 - **Beta 102:** o Human Smoke ganhou dois fatalities do Mortal Kombat Trilogy: o **Teleport Smash** (RUN, BL, RUN, RUN + HK, perto; substitui o uppercut que arrancava a cabeça, igual ao do Ermac): ele se teleporta, o soco dele explode a cabeça do oponente e o sangue jorra do pescoço; e o **Possession** (frente, frente, trás + RUN, mais ou menos meia tela; o primeiro fatality dele, que não existia): da pose de vitória ele vai sumindo em fumaça, a fumaça entra no oponente, que treme, grita, fica cinza e explode, e depois ele reaparece. O Noob Saibot ganhou um **Friendship**: frente, frente, trás + HP, mais longe que meia tela, sem ter usado a defesa no round: ele dá corda na caixinha de música dos ninjas, a sombra dele pula de dentro, para na frente do oponente, se curva e grita, o oponente foge assustado e a sombra some em fade. Os três estão no MOVELIST. O One Button Fatalities agora segue as regras de cada comando: o Rain anda até encostar no oponente para o Deadly Uppercut, os friendships que pedem distância andam até ela (Smoke, Triborg e Noob de longe; Scorpion, Reptile, Classic Sub-Zero e Rain de perto), o Classic Sub-Zero recua para o Ice Spike cair dentro do cenário, e com o oponente colado na parede o Ice Spike e os Teleport Slams do Noob não saem.
 - **Beta 101:** o Human Smoke ganhou o **Friendship** "No Smoking" do Mortal Kombat Trilogy: baixo, frente, frente, frente + RUN, mais longe que a distância da rasteira (mais ou menos meia tela), no FINISH HIM, sem ter usado a defesa no round. Uma placa NO SMOKING ALLOWED! cai do alto da tela na frente dele e finca no chão, e ele faz a pose de vitória. Está no MOVELIST, e o One Button Fatalities faz com HK / LK.
 - **Beta 100:** One Button Fatalities refeito: cada lutador anda até a distância certa do fatality dele, Chameleon, Khameleon, Triborg e Human Smoke fazem os deles, o stage fatality só nas fases que têm, e os botões de uma finalização que o lutador não tem fazem o golpe normal. No 4 PLAYER, 6 PLAYER e 8 PLAYER TOURNAMENT cada escolha tem as suas próprias cores (o mesmo jogador pode escolher o Kano e o Noob Saibot do MK3, e a chave mostra NOOB SAIBOT). Correção do lixo na tela dos cheats em partidas de 2 jogadores.
