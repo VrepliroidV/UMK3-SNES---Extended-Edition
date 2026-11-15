@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3**. It includes everything fr
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 103):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 104):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,14 +16,15 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `883e4ff174c479c74046af5b2db3c1b5` |
+| Patched ROM MD5 | `e1b4aa617e4a18e527f8924fc98c8bf4` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-103)
+## Latest changes (betas 57-104)
 
+- **Beta 104:** Scorpion gets a **flying punch forward**: Down, Fwd + HP. He leaps straight at the opponent, a little faster than his teleport punch, and hits it from the front; like the teleport punch, only once per combo, and one blocks the other. Nightwolf gets the **Red Hatchet** from Mortal Kombat Trilogy: his green hatchet is now Down, Fwd + LP (unchanged) and Down, Fwd + HP is the red one, with 3% more damage, a faster swing, a higher launch and red flames. Both moves are in the MOVELIST. Human Smoke's Teleport Smash no longer comes out with the opponent in the corner (his teleport needs room behind it), and in One Button Fatalities Rain walks in only until he touches the opponent for the Deadly Uppercut.
 - **Beta 103:** Nightwolf gets the **Red Shadow Shoulder** from Mortal Kombat Trilogy: Back, Back, Fwd + HK. His shoulder charge with a red shadow, a little faster and farther than the normal one (Fwd, Fwd + LK, which keeps its green shadow). It is in the MOVELIST. In Human Smoke's "No Smoking" Friendship, his smoke stops when the sign lands next to him.
 - **Beta 102:** Human Smoke gets two fatalities from Mortal Kombat Trilogy: **Teleport Smash** (Run, Block, Run, Run + HK, close; it replaces the head-ripping uppercut he shared with Ermac): he teleports, his punch blows the opponent's head off and blood spurts from the neck; and **Possession** (Fwd, Fwd, Back + Run, about half a screen; his new first fatality): from his victory pose he fades into smoke that flies into the opponent, which shakes, screams, turns grey and explodes, then he fades back in. Noob Saibot gets a **Friendship**: Fwd, Fwd, Back + HP, farther than half a screen, without blocking in the round: he winds the ninjas' music box, his shadow jumps out, lands in front of the opponent, bends forward and shouts, the opponent runs away scared and the shadow fades out. All three are in the MOVELIST. One Button Fatalities now follows each command's rules: Rain walks right up to the opponent for the Deadly Uppercut, the friendships that need a distance walk to it (Smoke, Triborg and Noob far; Scorpion, Reptile, Classic Sub-Zero and Rain close), Classic Sub-Zero backs off so the Ice Spike lands inside the stage, and with the opponent against the wall neither the Ice Spike nor Noob's teleport slams come out.
 - **Beta 101:** Human Smoke gets the "No Smoking" **Friendship** from Mortal Kombat Trilogy: Down, Fwd, Fwd, Fwd + Run, farther than a sweep (about half a screen), at FINISH HIM, without blocking in the round. A NO SMOKING ALLOWED! sign falls from the top of the screen in front of him and sticks in the floor, then he does his victory pose. It is in the MOVELIST, and One Button Fatalities does it with HK / LK.
@@ -163,12 +164,13 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo. Traz tudo do UMK3 Delu
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 103):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 104):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `883e4ff174c479c74046af5b2db3c1b5`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `e1b4aa617e4a18e527f8924fc98c8bf4`.
 
-### Novidades recentes (betas 57-103)
+### Novidades recentes (betas 57-104)
 
+- **Beta 104:** o Scorpion ganhou um **soco voador pra frente**: baixo, frente + HP. Ele salta direto no oponente, um pouco mais rápido que o teleporte, e acerta de frente; como o teleporte, só uma vez por combo, e um bloqueia o outro. O Nightwolf ganhou o **Red Hatchet** do Mortal Kombat Trilogy: o machado verde agora é baixo, frente + LP (igual ao de antes) e baixo, frente + HP é o vermelho, com 3% a mais de dano, mais rápido, o oponente subindo mais alto e as chamas vermelhas. Os dois golpes estão no MOVELIST. O Teleport Smash do Human Smoke não sai mais com o oponente no canto (o teleporte precisa de espaço atrás dele), e no One Button Fatalities o Rain só anda até encostar no oponente para o Deadly Uppercut.
 - **Beta 103:** o Nightwolf ganhou o **Red Shadow Shoulder** do Mortal Kombat Trilogy: trás, trás, frente + HK. É o ombro dele com a sombra vermelha, um pouco mais rápido e indo mais longe que o normal (frente, frente + LK, que continua com a sombra verde). Está no MOVELIST. No Friendship "No Smoking" do Human Smoke, a fumaça dele para de sair quando a placa cai perto dele.
 - **Beta 102:** o Human Smoke ganhou dois fatalities do Mortal Kombat Trilogy: o **Teleport Smash** (RUN, BL, RUN, RUN + HK, perto; substitui o uppercut que arrancava a cabeça, igual ao do Ermac): ele se teleporta, o soco dele explode a cabeça do oponente e o sangue jorra do pescoço; e o **Possession** (frente, frente, trás + RUN, mais ou menos meia tela; o primeiro fatality dele, que não existia): da pose de vitória ele vai sumindo em fumaça, a fumaça entra no oponente, que treme, grita, fica cinza e explode, e depois ele reaparece. O Noob Saibot ganhou um **Friendship**: frente, frente, trás + HP, mais longe que meia tela, sem ter usado a defesa no round: ele dá corda na caixinha de música dos ninjas, a sombra dele pula de dentro, para na frente do oponente, se curva e grita, o oponente foge assustado e a sombra some em fade. Os três estão no MOVELIST. O One Button Fatalities agora segue as regras de cada comando: o Rain anda até encostar no oponente para o Deadly Uppercut, os friendships que pedem distância andam até ela (Smoke, Triborg e Noob de longe; Scorpion, Reptile, Classic Sub-Zero e Rain de perto), o Classic Sub-Zero recua para o Ice Spike cair dentro do cenário, e com o oponente colado na parede o Ice Spike e os Teleport Slams do Noob não saem.
 - **Beta 101:** o Human Smoke ganhou o **Friendship** "No Smoking" do Mortal Kombat Trilogy: baixo, frente, frente, frente + RUN, mais longe que a distância da rasteira (mais ou menos meia tela), no FINISH HIM, sem ter usado a defesa no round. Uma placa NO SMOKING ALLOWED! cai do alto da tela na frente dele e finca no chão, e ele faz a pose de vitória. Está no MOVELIST, e o One Button Fatalities faz com HK / LK.
