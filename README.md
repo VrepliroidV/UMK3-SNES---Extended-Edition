@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3**. It includes everything fr
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 106):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 107):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,14 +16,15 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `e9a5c4fe8e5f77e4bda611a1f004f9fc` |
+| Patched ROM MD5 | `f77aa5f59bf30824c8300e9bbf0a52f8` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-106)
+## Latest changes (betas 57-107)
 
+- **Beta 107:** **smoother fights**: the game's logic and your buttons no longer wait for the sprites to be drawn. In busy moments (combos, specials, jumps, the boss fights) the game used to skip frames and the controls lagged, as in the original; now it keeps all 60 frames a second, at the same speed. The background no longer scrolls up and down by itself during combos.
 - **Beta 106:** the slowdown added in beta 105 is gone: in heavy moments the game keeps its **normal speed** again, as in the original. A little less CPU work per frame (Nightwolf's and Chameleon's extra code only runs when they are in the fight).
 - **Beta 105:** Nightwolf's combos ending in Down, Fwd + HP finish with the **Red Hatchet** only when the combo starts with a jump-in hit (face to face, the green one), and his Red Shadow Shoulder does 3% more damage. Rain's Friendship has the rain and flowers in place on every stage. **PLAY SLOTS** (Scott's Stuff) is fixed (whole faces, no garbage, the prize code shown) and has all 30 fighters.
 - **Beta 104:** Scorpion gets a **flying punch forward**: Down, Fwd + HP. He leaps straight at the opponent, a little faster than his teleport punch, and hits it from the front; like the teleport punch, only once per combo, and one blocks the other. Nightwolf gets the **Red Hatchet** from Mortal Kombat Trilogy: his green hatchet is now Down, Fwd + LP (unchanged) and Down, Fwd + HP is the red one, with 3% more damage, a faster swing, a higher launch and red flames. Both moves are in the MOVELIST. Human Smoke's Teleport Smash no longer comes out with the opponent in the corner (his teleport needs room behind it), and in One Button Fatalities Rain walks in only until he touches the opponent for the Deadly Uppercut.
@@ -166,12 +167,13 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo. Traz tudo do UMK3 Delu
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 106):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 107):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `e9a5c4fe8e5f77e4bda611a1f004f9fc`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `f77aa5f59bf30824c8300e9bbf0a52f8`.
 
-### Novidades recentes (betas 57-106)
+### Novidades recentes (betas 57-107)
 
+- **Beta 107:** **lutas mais estáveis**: a lógica do jogo e os botões não esperam mais o desenho dos sprites. Nos momentos agitados (combos, magias, pulos, lutas contra os chefes) o jogo pulava quadros e os comandos atrasavam, como no original; agora roda os 60 quadros por segundo, na mesma velocidade de sempre. O cenário não rola mais sozinho para cima e para baixo durante os combos.
 - **Beta 106:** a lentidão da beta 105 foi retirada: nos momentos pesados o jogo volta a manter a **velocidade normal**, como no original. Um pouco menos de processamento por quadro (o código extra do Nightwolf e do Chameleon só roda quando eles estão na luta).
 - **Beta 105:** os combos do Nightwolf que terminam em baixo, frente + HP só soltam o **Red Hatchet** quando o combo começa com um golpe pulando (frente a frente, o verde), e o Red Shadow Shoulder dele tira 3% a mais. Na Friendship do Rain a chuva e as flores ficam no lugar em todas as fases. O **PLAY SLOTS** (Scott's Stuff) foi consertado (rostos inteiros, sem lixo, a kode do prêmio aparece) e tem os 30 lutadores.
 - **Beta 104:** o Scorpion ganhou um **soco voador pra frente**: baixo, frente + HP. Ele salta direto no oponente, um pouco mais rápido que o teleporte, e acerta de frente; como o teleporte, só uma vez por combo, e um bloqueia o outro. O Nightwolf ganhou o **Red Hatchet** do Mortal Kombat Trilogy: o machado verde agora é baixo, frente + LP (igual ao de antes) e baixo, frente + HP é o vermelho, com 3% a mais de dano, mais rápido, o oponente subindo mais alto e as chamas vermelhas. Os dois golpes estão no MOVELIST. O Teleport Smash do Human Smoke não sai mais com o oponente no canto (o teleporte precisa de espaço atrás dele), e no One Button Fatalities o Rain só anda até encostar no oponente para o Deadly Uppercut.
