@@ -22,6 +22,14 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
+## Terms of use
+
+- This hack is shared for personal use, as an IPS patch.
+- **Do not modify it**, redistribute modified versions or reuse its content (code, graphics, sounds, screens) in other projects **without permission** from the author, Repliroid do Futuro.
+- **Do not sell it** in any form (ROMs, repro carts, bundles).
+- To share it, please link to this page instead of re-uploading the patch.
+- Want to make something based on it? Ask first.
+
 ## Latest changes (betas 57-109)
 
 - **Beta 109:** Williams logo screen: *"Winners don't sell repros. If you paid for this ROM, consider yourself ripped off!"* at the bottom.
@@ -172,6 +180,14 @@ O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 **Download (beta 109):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
 Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `175e28e7551bb7b2c78ff0b45729a285`.
+
+### Termos de uso
+
+- Esta hack é distribuída para uso pessoal, como patch IPS.
+- **Não é permitido modificá-la**, distribuir versões alteradas nem reaproveitar o conteúdo dela (código, gráficos, sons, telas) em outros projetos **sem permissão** do autor, Repliroid do Futuro.
+- **Não é permitido vender**, de nenhuma forma (ROMs, cartuchos repro, coletâneas).
+- Para divulgar, compartilhe o link desta página em vez de reenviar o patch.
+- Quer fazer algo baseado nela? Peça permissão antes.
 
 ### Novidades recentes (betas 57-109)
 
