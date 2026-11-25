@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3**. It includes everything fr
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 109):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 110):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,7 +16,7 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `175e28e7551bb7b2c78ff0b45729a285` |
+| Patched ROM MD5 | `f8183787da7a9872a3b55658a4aa656b` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
@@ -30,8 +30,9 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 - To share it, please link to this page instead of re-uploading the patch.
 - Want to make something based on it? Ask first.
 
-## Latest changes (betas 57-109)
+## Latest changes (betas 57-110)
 
+- **Beta 110:** OPTIONS > CREDITS: the beta testers [wallace-almanac](https://github.com/wallace-almanac) and [BzeroTV](https://github.com/BzeroTV), who also brought new ideas.
 - **Beta 109:** Williams logo screen: *"Winners don't sell repros. If you paid for this ROM, consider yourself ripped off!"* at the bottom.
 - **Beta 108:** Jade's Desert: the **Cyrax buried in the sand** in the background is gone when Cyrax is picked for the fight (either side, a team member in 2 on 2 / 3 on 3, or an opponent in an endurance fight), from the start. With anyone else, Shang Tsung's Cyrax morph included, he is there as before.
 - **Beta 107:** **smoother fights**: the game's logic and your buttons no longer wait for the sprites to be drawn. In busy moments (combos, specials, jumps, the boss fights) the game used to skip frames and the controls lagged, as in the original; now it keeps all 60 frames a second, at the same speed. The background no longer scrolls up and down by itself during combos.
@@ -168,6 +169,7 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 - Original MSU-1 patch: Kurrono, Relikk, Conn
 - Genesis "UMK3 Arcade" hack (reference): Nemesis_C
 - This patch: Repliroid do Futuro (Gabriel Calmon)
+- Beta testers and new ideas: [wallace-almanac](https://github.com/wallace-almanac), [BzeroTV](https://github.com/BzeroTV)
 
 ---
 
@@ -177,9 +179,9 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo. Traz tudo do UMK3 Delu
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 109):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 110):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `175e28e7551bb7b2c78ff0b45729a285`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `f8183787da7a9872a3b55658a4aa656b`.
 
 ### Termos de uso
 
@@ -189,8 +191,9 @@ Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, 
 - Para divulgar, compartilhe o link desta página em vez de reenviar o patch.
 - Quer fazer algo baseado nela? Peça permissão antes.
 
-### Novidades recentes (betas 57-109)
+### Novidades recentes (betas 57-110)
 
+- **Beta 110:** OPÇÕES > CREDITS: os beta testers [wallace-almanac](https://github.com/wallace-almanac) e [BzeroTV](https://github.com/BzeroTV), que também trouxeram ideias novas.
 - **Beta 109:** tela da logo da Williams: a mensagem *"Winners don't sell repros. If you paid for this ROM, consider yourself ripped off!"* na parte de baixo.
 - **Beta 108:** Jade's Desert: o **Cyrax enterrado na areia** do fundo some quando o Cyrax é escolhido para a luta (de qualquer lado, num time do 2 on 2 / 3 on 3 ou como oponente da luta de resistência), desde o começo. Com qualquer outro lutador, inclusive o Shang Tsung transformado em Cyrax, ele continua lá.
 - **Beta 107:** **lutas mais estáveis**: a lógica do jogo e os botões não esperam mais o desenho dos sprites. Nos momentos agitados (combos, magias, pulos, lutas contra os chefes) o jogo pulava quadros e os comandos atrasavam, como no original; agora roda os 60 quadros por segundo, na mesma velocidade de sempre. O cenário não rola mais sozinho para cima e para baixo durante os combos.
